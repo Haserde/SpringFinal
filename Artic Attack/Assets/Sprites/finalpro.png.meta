@@ -1,0 +1,273 @@
+fileFormatVersion: 2
+guid: 3b6963cff9ea049b8bd7ac7d9f841aec
+timeCreated: 1461186123
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: finalpro_0
+    21300002: finalpro_1
+    21300004: finalpro_2
+    21300006: finalpro_3
+    21300008: finalpro_4
+    21300010: finalpro_5
+    21300012: finalpro_6
+    21300014: finalpro_7
+    21300016: finalpro_8
+    21300018: finalpro_9
+    21300020: finalpro_10
+    21300022: finalpro_11
+    21300024: finalpro_12
+    21300026: finalpro_13
+    21300028: finalpro_14
+    21300030: finalpro_15
+    21300032: finalpro_16
+    21300034: finalpro_17
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: finalpro_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 202
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: finalpro_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 202
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: finalpro_2
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 202
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: finalpro_3
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 202
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: finalpro_4
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 202
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: finalpro_5
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 202
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: finalpro_6
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 202
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: finalpro_7
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 162
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: finalpro_8
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 163
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: finalpro_9
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 163
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: finalpro_10
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 163
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: finalpro_11
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 162
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: finalpro_12
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 163
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: finalpro_13
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 163
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: finalpro_14
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 122
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: finalpro_15
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 121
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: finalpro_16
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 121
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: finalpro_17
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 122
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

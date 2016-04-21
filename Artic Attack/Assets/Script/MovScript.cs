@@ -29,16 +29,6 @@ public class MovScript : MonoBehaviour {
 		xspd = Input.GetAxis("Horizontal") * movspd;
 
 		rb.velocity = new Vector2 (xspd, rb.velocity.y);
-
-		if (Input.GetKeyDown (KeyCode.X)) {
-
-			yspd = jumpspd;
-
-			rb.velocity = rb.velocity + new Vector2 (rb.velocity.x, yspd);
-
-			canjump = false;
-
-		}
 			
 	}
 

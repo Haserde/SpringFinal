@@ -1,1 +1,8 @@
+<<<<<<< HEAD
+sceneSetups:
+- path: Assets/Scenes/main.unity
+  isLoaded: 1
+  isActive: 1
+=======
 sceneSetups: []
+>>>>>>> 56dc0de69e8e6f6cdf302eb5b47d4c0fd564682f

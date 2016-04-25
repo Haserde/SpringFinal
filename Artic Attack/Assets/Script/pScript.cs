@@ -32,10 +32,21 @@ public class pScript : MonoBehaviour {
 			GetComponent<Animator> ().SetBool ("isWalking", false);
 		}
 
-		if (Input.GetKeyDown (KeyCode.X)) {
+		if (Input.GetKeyDown (KeyCode.Z)) {
 			GetComponent<Animator> ().SetBool ("isShooting", true);
 		} 
 
+		if (Input.GetKeyDown (KeyCode.X)) {
+			GetComponent<Animator> ().SetBool ("isJumping", true);
+		} 
+
+	}
+
+	void OnCollisionEnter2D(Collision2D col) {
+
+		if (col.gameObject.CompareTag ("ground")) {
+			GetComponent<Animator> ().SetBool ("isJumping", false);
+		}
 
 	}
 		

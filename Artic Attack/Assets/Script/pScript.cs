@@ -32,8 +32,10 @@ public class pScript : MonoBehaviour {
 			GetComponent<Animator> ().SetBool ("isWalking", false);
 		}
 
-		if (Input.GetKeyDown (KeyCode.Z)) {
-			GetComponent<Animator> ().SetBool ("isShooting", true);
+		if (GetComponentInChildren<shooting> ().canshoot == true) {
+			if (Input.GetKeyDown (KeyCode.Z)) {
+				GetComponent<Animator> ().SetBool ("isShooting", true);
+			}
 		} 
 
 		if (Input.GetKeyDown (KeyCode.X)) {

@@ -4,7 +4,7 @@ using System.Collections;
 public class MovScript : MonoBehaviour {
 
 
-	float movspd = 20f;
+	float movspd = 13f;
 	float xspd;
 	float jumpspd = 20f;
 	float yspd;

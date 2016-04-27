@@ -1,11 +1,13 @@
 fileFormatVersion: 2
-guid: a729975448d834fa696b6b35362ce14e
-timeCreated: 1461753141
+guid: 52938c4b756ea45369c3486861ca3613
+timeCreated: 1461782188
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: panel_0
-    21300002: panel_1
+    21300000: treadmill_0
+    21300002: treadmill_1
+    21300004: treadmill_2
+    21300006: treadmill_3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -52,24 +54,46 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: panel_0
+    - name: treadmill_0
       rect:
         serializedVersion: 2
-        x: 23
-        y: 11
-        width: 12
-        height: 29
+        x: 7
+        y: 97
+        width: 106
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: panel_1
+    - name: treadmill_1
       rect:
         serializedVersion: 2
-        x: 60
-        y: 11
-        width: 12
-        height: 29
+        x: 7
+        y: 72
+        width: 106
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: treadmill_2
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 47
+        width: 106
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: treadmill_3
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 22
+        width: 106
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

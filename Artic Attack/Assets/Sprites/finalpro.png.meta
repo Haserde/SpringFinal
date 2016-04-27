@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 3b6963cff9ea049b8bd7ac7d9f841aec
-timeCreated: 1461186123
+timeCreated: 1461273194
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -22,6 +22,8 @@ TextureImporter:
     21300030: finalpro_15
     21300032: finalpro_16
     21300034: finalpro_17
+    21300036: finalpro_18
+    21300038: finalpro_19
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -262,6 +264,28 @@ TextureImporter:
         y: 122
         width: 22
         height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: finalpro_18
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 85
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: finalpro_19
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 85
+        width: 16
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

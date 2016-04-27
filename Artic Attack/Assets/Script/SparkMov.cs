@@ -3,29 +3,36 @@ using System.Collections;
 
 public class SparkMov : MonoBehaviour {
 
-	float sparkspd = 0.4f;
+	float sparkspd = 10f;
+	float lifetime = 200f;
 	bool spawned = true;
+	public int dir; 
+	Rigidbody2D sparkrb;
+	public GameObject source;
 
 	void Start () {
+
+		sparkrb = GetComponent<Rigidbody2D> ();
+		dir = source.GetComponent<shooting> ().dir;
 
 	}
 	
 
 	void Update () {
-	
+
 		if (spawned == true) {
 
-			if (Input.GetAxis ("Horizontal") > 0) {
-
-				sparkspd = sparkspd * 1;
-
-			} else if (Input.GetAxis ("Horizontal") < 0) {
-				sparkspd = -sparkspd;
-			}
+			sparkrb.velocity = sparkrb.velocity + new Vector2 (sparkspd, sparkrb.velocity.y);
 
 			spawned = false;
 		}
 
-		gameObject.transform.position = gameObject.transform.position + new Vector3 (sparkspd, 0, 0);
+		--lifetime;
+
+		if (lifetime < 0) {
+
+			Destroy (gameObject);
+
+		}
 	}
 }

@@ -5,6 +5,7 @@ public class shooting : MonoBehaviour {
 
 	float shoottimer = 0f;
 	public bool canshoot;
+	public int dir;
 	Vector3 projxy;
 	Quaternion projquat;
 	public GameObject proj;
@@ -19,10 +20,9 @@ public class shooting : MonoBehaviour {
 
 	void Update () {
 
-		projxy = gameObject.transform.position;
+		print (dir);
 
-		print (canshoot);
-		print (shoottimer);
+		projxy = gameObject.transform.position;
 
 		if (Input.GetKeyDown (KeyCode.Z) && canshoot == true) {
 
@@ -41,6 +41,14 @@ public class shooting : MonoBehaviour {
 			canshoot = true;
 		} else {
 			--shoottimer;
+		}
+
+		if (Input.GetAxis ("Horizontal") > 0) {
+			dir = 1;
+		}
+
+		if (Input.GetAxis ("Horizontal") < 0) {
+			dir = -1;
 		}
 	}
 }

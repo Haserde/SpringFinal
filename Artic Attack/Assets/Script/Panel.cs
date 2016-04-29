@@ -4,6 +4,7 @@ using System.Collections;
 public class Panel : MonoBehaviour {
 
 	public bool On;
+	public GameObject thingToSwitch;
 
 	void Start() {
 
@@ -30,8 +31,10 @@ public class Panel : MonoBehaviour {
 		if (col.gameObject.CompareTag ("spark")) {
 
 			if (On == true) {
+				thingToSwitch.SendMessage ("turnOff", false);
 				On = false;
 			} else {
+				thingToSwitch.SendMessage ("turnOn", true);
 				On = true;
 			}
 

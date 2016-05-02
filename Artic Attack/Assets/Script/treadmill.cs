@@ -3,7 +3,7 @@ using System.Collections;
 
 public class treadmill : MonoBehaviour {
 
-	public GameObject swtch;
+
 	float turnspd = 5f;
 	bool turn;
 
@@ -13,7 +13,6 @@ public class treadmill : MonoBehaviour {
 
 	void Update () {
 
-		turn = swtch.GetComponent<Panel> ().On;
 
 		if (turn == true) {
 			turnspd = 5f;
@@ -24,6 +23,14 @@ public class treadmill : MonoBehaviour {
 			GetComponent<Animator> ().SetBool ("goL", false);
 		}
 	
+	}
+
+	void turnOn(bool isOn) {
+		turn = isOn;
+	}
+
+	void turnOff(bool isOn) {
+		turn = isOn;
 	}
 
 	void OnCollisionStay2D (Collision2D col) {

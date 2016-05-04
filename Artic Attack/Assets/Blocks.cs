@@ -3,20 +3,21 @@ using System.Collections;
 
 public class Blocks : MonoBehaviour {
 
-	int pos = 2;
+	public int pos;
+	float move;
 	Vector3 posxy;
 
 	void Start () {
 	
 		posxy = gameObject.transform.position;
-
+		move = gameObject.transform.localScale.y;
 
 	}
 
 	void Update () {
 	
 		if (pos == 1) {
-			gameObject.transform.position = posxy + new Vector3 (0f, 8f, 0f);
+			gameObject.transform.position = posxy + new Vector3 (0f, move, 0f);
 		}
 
 		if (pos == 2) {
@@ -24,7 +25,7 @@ public class Blocks : MonoBehaviour {
 		}
 
 		if (pos == 3) {
-			gameObject.transform.position = posxy + new Vector3 (0f, -8f, 0f);
+			gameObject.transform.position = posxy + new Vector3 (0f, -move, 0f);
 		}
 
 		if (pos > 3) {

@@ -38,7 +38,7 @@ public class pScript : MonoBehaviour {
 			}
 		} 
 
-		if (Input.GetKeyDown (KeyCode.X)) {
+		if (Input.GetButtonDown ("Jump")) {
 			GetComponent<Animator> ().SetBool ("isJumping", true);
 		} 
 
@@ -52,4 +52,11 @@ public class pScript : MonoBehaviour {
 
 	}
 		
+	void OnCollisionStay2D(Collision2D col) {
+
+		if (col.gameObject.CompareTag ("ground")) {
+			GetComponent<Animator> ().SetBool ("isJumping", false);
+		}
+
+	}
 }

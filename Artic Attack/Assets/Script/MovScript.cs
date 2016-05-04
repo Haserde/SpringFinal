@@ -6,8 +6,7 @@ public class MovScript : MonoBehaviour {
 
 	float movspd = 13f;
 	float xspd;
-	float jumpspd = 20f;
-	float yspd;
+	float jumpspd = 1000f;
 	bool canjump;
 	int direction;
 	Rigidbody2D rb;
@@ -23,16 +22,17 @@ public class MovScript : MonoBehaviour {
 
 	void Update () {
 
+		print (Input.GetAxis ("Vertical"));
+
+		print (canjump);
+
 		xspd = Input.GetAxis("Horizontal") * movspd;
 
 		rb.velocity = new Vector2 (xspd, rb.velocity.y);
 
-		if (Input.GetKeyDown (KeyCode.X) && canjump == true) {
-
-			yspd = jumpspd;
-
-			rb.velocity = rb.velocity + new Vector2 (rb.velocity.x, yspd);
-
+		if (Input.GetButtonDown("Jump") && canjump) {
+			
+			rb.AddForce (new Vector2(0, jumpspd));
 			canjump = false;
 
 		}
@@ -47,7 +47,19 @@ public class MovScript : MonoBehaviour {
 
 	}
 
-	void OnTriggerEnter2D (Collider2D col) {
+	void OnCollisionStay2D (Collision2D  col) {
+
+		if(col.gameObject.CompareTag("ground")) {
+			canjump = true;
+		}
+
+	}
+
+	void OnCollisionExit2D (Collision2D  col) {
+
+		if(col.gameObject.CompareTag("ground")) {
+			canjump = false;
+		}
 
 	}
 		

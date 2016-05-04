@@ -3,6 +3,8 @@ using System.Collections;
 
 public class resetScript : MonoBehaviour {
 
+	public string currentLevel;
+
 	// Use this for initialization
 	void Start () {
 	
@@ -15,7 +17,7 @@ public class resetScript : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D other){
 		if(other.gameObject){
-			Application.LoadLevel ("scene3");
+			Application.LoadLevel (currentLevel);
 		}
 	}
 }

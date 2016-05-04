@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class moveScene : MonoBehaviour {
-	public string nextLevel = "scene2";
+	public string nextLevel;
 	// Use this for initialization
 	void Start () {
 	

@@ -11,3 +11,7 @@
 /Users/LGHUIZA/SpringFinal/Artic Attack/Temp/bin/Debug/Unity.CecilTools.dll
 /Users/LGHUIZA/SpringFinal/Artic Attack/Temp/bin/Debug/Mono.Cecil.Pdb.dll
 /Users/LGHUIZA/SpringFinal/Artic Attack/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/LGHUIZA/SpringFinal/Artic Attack/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/LGHUIZA/SpringFinal/Artic Attack/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/LGHUIZA/SpringFinal/Artic Attack/obj/Debug/Assembly-CSharp.dll
+/Users/LGHUIZA/SpringFinal/Artic Attack/obj/Debug/Assembly-CSharp.dll.mdb

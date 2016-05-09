@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/Testing.unity
-=======
-- path: Assets/Scenes/scene3.unity
->>>>>>> 0ccc341f2cb130a76d84c092ef10aabee0593d9f
+- path: Assets/powerplant2.unity
   isLoaded: 1
   isActive: 1

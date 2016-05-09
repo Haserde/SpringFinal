@@ -12,6 +12,7 @@ public class MovScript : MonoBehaviour {
 	Rigidbody2D rb;
 	Rigidbody2D colrb;
 
+
 	void Start () {
 		
 		rb = GetComponent<Rigidbody2D> ();
@@ -41,13 +42,19 @@ public class MovScript : MonoBehaviour {
 
 	void OnCollisionEnter2D (Collision2D  col) {
 
-		if(col.gameObject.CompareTag("ground")) {
+		//RaycastHit2D hit = Physics2D.Raycast (transform.position, -Vector2.up, 1);
+		//print (hit.collider); 	
+
+
+		if (col.gameObject.CompareTag ("ground")) {
 			canjump = true;
 		}
-
 	}
 
 	void OnCollisionStay2D (Collision2D  col) {
+
+		//RaycastHit2D hit = Physics2D.Raycast (transform.position, -Vector2.up, 1);
+		//print (hit.collider);
 
 		if(col.gameObject.CompareTag("ground")) {
 			canjump = true;

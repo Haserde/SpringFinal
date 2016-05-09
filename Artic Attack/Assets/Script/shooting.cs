@@ -24,7 +24,7 @@ public class shooting : MonoBehaviour {
 
 		projxy = gameObject.transform.position;
 
-		if (Input.GetKeyDown (KeyCode.Z) && canshoot == true) {
+		if (Input.GetKeyDown (KeyCode.E) && canshoot == true) {
 
 			GetComponentInParent<Animator> ().SetBool ("isShooting", true);
 			canshoot = false;

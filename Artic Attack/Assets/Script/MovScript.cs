@@ -3,10 +3,11 @@ using System.Collections;
 
 public class MovScript : MonoBehaviour {
 
+	private int layerMask = 1 << 8;
 
 	float movspd = 13f;
 	float xspd;
-	public float jumpspd = 1000f;
+	float jumpspd = 1000f;
 	bool canjump;
 	int direction;
 	Rigidbody2D rb;
@@ -19,55 +20,34 @@ public class MovScript : MonoBehaviour {
 		canjump = false;
 
 	}
-	
+
+	void FixedUpdate() {
+
+		RaycastHit2D hit1 = Physics2D.Raycast(new Vector2(transform.position.x+.8f,transform.position.y), -Vector2.up,2.0f,layerMask);
+		RaycastHit2D hit2 = Physics2D.Raycast(new Vector2(transform.position.x-.8f,transform.position.y), -Vector2.up,2.0f,layerMask);
+
+		print ("hit: " + (hit2.collider != null));
+
+		if (hit1.collider != null || hit2.collider != null) {
+			canjump = true;
+		} else {
+			canjump = false;
+		} 
+
+	}
 
 	void Update () {
 
-		print (Input.GetAxis ("Vertical"));
-
-		print (canjump);
 
 		xspd = Input.GetAxis("Horizontal") * movspd;
 
 		rb.velocity = new Vector2 (xspd, rb.velocity.y);
 
 		if (Input.GetButtonDown("Jump") && canjump) {
-			
 			rb.AddForce (new Vector2(0, jumpspd));
-			canjump = false;
 
 		}
 			
-	}
-
-	void OnCollisionEnter2D (Collision2D  col) {
-
-		//RaycastHit2D hit = Physics2D.Raycast (transform.position, -Vector2.up, 1);
-		//print (hit.collider); 	
-
-
-		if (col.gameObject.CompareTag ("ground")) {
-			canjump = true;
-		}
-	}
-
-	void OnCollisionStay2D (Collision2D  col) {
-
-		//RaycastHit2D hit = Physics2D.Raycast (transform.position, -Vector2.up, 1);
-		//print (hit.collider);
-
-		if(col.gameObject.CompareTag("ground")) {
-			canjump = true;
-		}
-
-	}
-
-	void OnCollisionExit2D (Collision2D  col) {
-
-		if(col.gameObject.CompareTag("ground")) {
-			canjump = false;
-		}
-
 	}
 		
 }

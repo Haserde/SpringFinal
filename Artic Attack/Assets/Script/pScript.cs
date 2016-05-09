@@ -4,6 +4,7 @@ using System.Collections;
 public class pScript : MonoBehaviour {
 
 	private float xscale;
+	bool jump;
 
 	// Use this for initialization
 	void Start () {

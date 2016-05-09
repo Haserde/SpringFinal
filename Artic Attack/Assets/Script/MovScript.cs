@@ -7,7 +7,7 @@ public class MovScript : MonoBehaviour {
 
 	float movspd = 13f;
 	float xspd;
-	float jumpspd = 1000f;
+	float jumpspd = 1250f;
 	bool canjump;
 	int direction;
 	Rigidbody2D rb;

@@ -25,10 +25,11 @@ public class MovScript : MonoBehaviour {
 
 		RaycastHit2D hit1 = Physics2D.Raycast(new Vector2(transform.position.x+.8f,transform.position.y), -Vector2.up,2.0f,layerMask);
 		RaycastHit2D hit2 = Physics2D.Raycast(new Vector2(transform.position.x-.8f,transform.position.y), -Vector2.up,2.0f,layerMask);
+		RaycastHit2D hit3 = Physics2D.Raycast(new Vector2(transform.position.x,transform.position.y), -Vector2.up,2.0f,layerMask);
 
 		print ("hit: " + (hit2.collider != null));
 
-		if (hit1.collider != null || hit2.collider != null) {
+		if (hit1.collider != null || hit2.collider != null || hit3.collider != null) {
 			canjump = true;
 		} else {
 			canjump = false;

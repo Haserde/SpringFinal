@@ -3,7 +3,7 @@ using System.Collections;
 
 public class havePackage : MonoBehaviour {
 
-	public bool pckge = false;
+	static public bool pckge = false;
 
 	void Awake() {
 		DontDestroyOnLoad (gameObject);

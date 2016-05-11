@@ -18,7 +18,7 @@ public class package : MonoBehaviour {
 
 		if (col.gameObject.CompareTag ("Player")) {
 
-			detector.GetComponent<havePackage> ().pckge = true;
+			havePackage.pckge = true;
 
 			Destroy (gameObject);
 

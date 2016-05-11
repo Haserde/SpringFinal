@@ -39,7 +39,6 @@ public class MovScript : MonoBehaviour {
 
 	void Update () {
 
-
 		xspd = Input.GetAxis("Horizontal") * movspd;
 
 		rb.velocity = new Vector2 (xspd, rb.velocity.y);

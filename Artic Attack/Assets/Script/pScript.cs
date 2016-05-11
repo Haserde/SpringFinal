@@ -8,9 +8,7 @@ public class pScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-
 		xscale = transform.localScale.x;
-
 
 	}
 	

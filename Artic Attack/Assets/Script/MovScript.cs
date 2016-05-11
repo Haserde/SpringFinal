@@ -7,7 +7,7 @@ public class MovScript : MonoBehaviour {
 
 	float movspd = 13f;
 	float xspd;
-	float jumpspd = 1250f;
+	public float jumpspd = 1000f;
 	bool canjump;
 	int direction;
 	Rigidbody2D rb;
@@ -44,9 +44,8 @@ public class MovScript : MonoBehaviour {
 
 		rb.velocity = new Vector2 (xspd, rb.velocity.y);
 
-		if (Input.GetButtonDown("Jump") && canjump) {
-			rb.AddForce (new Vector2(0, jumpspd));
-
+		if (Input.GetButtonDown ("Jump") && canjump) {
+			rb.AddForce (new Vector2 (0, jumpspd));
 		}
 			
 	}

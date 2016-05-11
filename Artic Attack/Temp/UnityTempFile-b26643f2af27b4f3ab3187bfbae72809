@@ -87,6 +87,7 @@
 'Assets/Script/Swtch.cs'
 'Assets/Script/TriggerField.cs'
 'Assets/Script/elevatorMovement.cs'
+'Assets/Script/killscript.cs'
 'Assets/Script/moveScene.cs'
 'Assets/Script/pScript.cs'
 'Assets/Script/resetScript.cs'

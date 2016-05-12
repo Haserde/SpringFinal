@@ -3,7 +3,7 @@ using System.Collections;
 
 public class FallMov : MonoBehaviour {
 
-	public bool activ = false;
+	bool activ = false;
 	public float fallspd;
 	Rigidbody2D rb;
 
@@ -24,9 +24,13 @@ public class FallMov : MonoBehaviour {
 
 	}
 
-	public void Activ (bool act) {
+	void OnCollisionEnter2D (Collision2D col) {
 
-		activ = act;
+		if (col.gameObject.CompareTag ("Player")) {
+
+			activ = true;
+
+		}
 
 	}
 

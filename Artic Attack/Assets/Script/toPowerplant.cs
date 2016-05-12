@@ -16,8 +16,6 @@ public class toPowerplant : MonoBehaviour {
 
 		gotpckage = havePackage.pckge;
 
-		print (gotpckage);
-
 	}
 
 	void OnTriggerEnter2D(Collider2D other){

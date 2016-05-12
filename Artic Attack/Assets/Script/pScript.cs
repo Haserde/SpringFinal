@@ -33,7 +33,9 @@ public class pScript : MonoBehaviour {
 
 		if (GetComponentInChildren<shooting> ().shoottimer > 0) {
 			GetComponent<Animator> ().SetBool ("isShooting", true);
-		} 
+		} else {
+			GetComponent<Animator> ().SetBool ("isShooting", false);
+		}
 
 		if (Input.GetButtonDown ("Jump")) {
 			GetComponent<Animator> ().SetBool ("isJumping", true);

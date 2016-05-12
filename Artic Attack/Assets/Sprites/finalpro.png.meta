@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 3b6963cff9ea049b8bd7ac7d9f841aec
-timeCreated: 1461273194
+timeCreated: 1463059941
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -78,7 +78,7 @@ TextureImporter:
         width: 20
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: finalpro_1
@@ -89,7 +89,7 @@ TextureImporter:
         width: 20
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: finalpro_2
@@ -98,9 +98,9 @@ TextureImporter:
         x: 85
         y: 202
         width: 20
-        height: 30
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: finalpro_3
@@ -109,9 +109,9 @@ TextureImporter:
         x: 116
         y: 202
         width: 20
-        height: 29
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: finalpro_4
@@ -120,9 +120,9 @@ TextureImporter:
         x: 147
         y: 202
         width: 21
-        height: 28
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: finalpro_5
@@ -131,9 +131,9 @@ TextureImporter:
         x: 178
         y: 202
         width: 20
-        height: 27
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: finalpro_6
@@ -142,9 +142,9 @@ TextureImporter:
         x: 209
         y: 202
         width: 20
-        height: 26
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: finalpro_7
@@ -153,9 +153,9 @@ TextureImporter:
         x: 24
         y: 162
         width: 18
-        height: 30
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: finalpro_8
@@ -164,9 +164,9 @@ TextureImporter:
         x: 57
         y: 163
         width: 14
-        height: 28
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: finalpro_9
@@ -175,9 +175,9 @@ TextureImporter:
         x: 85
         y: 163
         width: 19
-        height: 27
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: finalpro_10
@@ -186,9 +186,9 @@ TextureImporter:
         x: 117
         y: 163
         width: 17
-        height: 28
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: finalpro_11
@@ -199,7 +199,7 @@ TextureImporter:
         width: 18
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: finalpro_12
@@ -208,9 +208,9 @@ TextureImporter:
         x: 179
         y: 163
         width: 18
-        height: 27
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: finalpro_13
@@ -219,9 +219,9 @@ TextureImporter:
         x: 210
         y: 163
         width: 14
-        height: 27
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: finalpro_14
@@ -230,9 +230,9 @@ TextureImporter:
         x: 23
         y: 122
         width: 21
-        height: 30
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: finalpro_15
@@ -243,7 +243,7 @@ TextureImporter:
         width: 22
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: finalpro_16
@@ -254,7 +254,7 @@ TextureImporter:
         width: 22
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: finalpro_17
@@ -263,9 +263,9 @@ TextureImporter:
         x: 115
         y: 122
         width: 22
-        height: 30
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: finalpro_18
@@ -276,7 +276,7 @@ TextureImporter:
         width: 16
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: finalpro_19
@@ -287,7 +287,7 @@ TextureImporter:
         width: 16
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     outline: []

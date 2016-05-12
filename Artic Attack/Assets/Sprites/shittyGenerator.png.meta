@@ -1,9 +1,12 @@
 fileFormatVersion: 2
 guid: fe69e163a01df4faca816b4d36297bcc
-timeCreated: 1463078487
+timeCreated: 1463079183
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: shittyGenerator_0
+    21300002: shittyGenerator_1
+    21300004: shittyGenerator_2
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -49,7 +52,112 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: shittyGenerator_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 59
+        width: 457
+        height: 1141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: -258.5}
+        - {x: -13.5, y: -256.5}
+        - {x: -22.5, y: -256.5}
+        - {x: -22.5, y: 570.5}
+        - {x: -54.5, y: 570.5}
+        - {x: -54.5, y: -256.5}
+        - {x: -63.5, y: -256.5}
+        - {x: -65.5, y: -258.5}
+        - {x: -65.5, y: -266.5}
+        - {x: -98.5, y: -266.5}
+        - {x: -98.5, y: -252.5}
+        - {x: -100.5, y: -250.5}
+        - {x: -110.5, y: -250.5}
+        - {x: -110.5, y: 570.5}
+        - {x: -174.5, y: 570.5}
+        - {x: -174.5, y: -250.5}
+        - {x: -181.5, y: -250.5}
+        - {x: -183.5, y: -252.5}
+        - {x: -183.5, y: -266.5}
+        - {x: -228.5, y: -266.5}
+        - {x: -228.5, y: -570.5}
+        - {x: 228.5, y: -570.5}
+        - {x: 228.5, y: -266.5}
+        - {x: -11.5, y: -266.5}
+    - name: shittyGenerator_1
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 57
+        width: 457
+        height: 1143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: -259.5}
+        - {x: -13.5, y: -257.5}
+        - {x: -22.5, y: -257.5}
+        - {x: -22.5, y: 571.5}
+        - {x: -54.5, y: 571.5}
+        - {x: -54.5, y: -257.5}
+        - {x: -63.5, y: -257.5}
+        - {x: -65.5, y: -259.5}
+        - {x: -65.5, y: -267.5}
+        - {x: -98.5, y: -267.5}
+        - {x: -98.5, y: -253.5}
+        - {x: -100.5, y: -251.5}
+        - {x: -110.5, y: -251.5}
+        - {x: -110.5, y: 571.5}
+        - {x: -174.5, y: 571.5}
+        - {x: -174.5, y: -251.5}
+        - {x: -181.5, y: -251.5}
+        - {x: -183.5, y: -253.5}
+        - {x: -183.5, y: -267.5}
+        - {x: -228.5, y: -267.5}
+        - {x: -228.5, y: -571.5}
+        - {x: 228.5, y: -571.5}
+        - {x: 228.5, y: -267.5}
+        - {x: -11.5, y: -267.5}
+    - name: shittyGenerator_2
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 57
+        width: 457
+        height: 1143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: -259.5}
+        - {x: -13.5, y: -257.5}
+        - {x: -22.5, y: -257.5}
+        - {x: -22.5, y: 571.5}
+        - {x: -54.5, y: 571.5}
+        - {x: -54.5, y: -257.5}
+        - {x: -63.5, y: -257.5}
+        - {x: -65.5, y: -259.5}
+        - {x: -65.5, y: -267.5}
+        - {x: -98.5, y: -267.5}
+        - {x: -98.5, y: -253.5}
+        - {x: -100.5, y: -251.5}
+        - {x: -110.5, y: -251.5}
+        - {x: -110.5, y: 571.5}
+        - {x: -174.5, y: 571.5}
+        - {x: -174.5, y: -251.5}
+        - {x: -181.5, y: -251.5}
+        - {x: -183.5, y: -253.5}
+        - {x: -183.5, y: -267.5}
+        - {x: -228.5, y: -267.5}
+        - {x: -228.5, y: -571.5}
+        - {x: 228.5, y: -571.5}
+        - {x: 228.5, y: -267.5}
+        - {x: -11.5, y: -267.5}
     outline: []
   spritePackingTag: 
   userData: 

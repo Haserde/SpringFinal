@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class elevatorMovement : MonoBehaviour {
-	public float speed = 0f;
+	public float speed;
 	Animator anim;
 
 	// Use this for initialization
@@ -15,7 +15,7 @@ public class elevatorMovement : MonoBehaviour {
 	// Update is called once per frame
 	void OnTriggerStay2D(Collider2D other) {
 		if (other.gameObject){
-			transform.Translate (Vector2.up * Time.deltaTime, Space.World);
+			transform.Translate (Vector2.up * speed, Space.World);
 			anim.SetBool ("isMoving", true);
 			print ("hello");
 		}

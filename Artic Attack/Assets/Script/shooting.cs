@@ -3,8 +3,8 @@ using System.Collections;
 
 public class shooting : MonoBehaviour {
 
-	float shoottimer = 0f;
-	public bool canshoot;
+	public float shoottimer = 0f;
+	bool canshoot;
 	public int dir;
 	Vector3 projxy;
 	Quaternion projquat;
@@ -20,11 +20,9 @@ public class shooting : MonoBehaviour {
 
 	void Update () {
 
-		print (dir);
-
 		projxy = gameObject.transform.position;
 
-		if (Input.GetKeyDown (KeyCode.E) && canshoot == true) {
+		if (Input.GetButtonDown("Fire1") && canshoot == true) {
 
 			GetComponentInParent<Animator> ().SetBool ("isShooting", true);
 			canshoot = false;
